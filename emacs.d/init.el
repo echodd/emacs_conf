@@ -9,6 +9,24 @@
 (add-to-list 'load-path "~/.emacs.d/elpa/alpha-1.0/")
 (add-to-list 'load-path "~/.emacs.d/elpa/undo-tree-20140110.616/")
 (add-to-list 'load-path "~/.emacs.d/elpa/workgroups-20110726.941/")
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(add-to-list 'load-path "~/.emacs.d/elpa/org-page/")
+(require 'org-page)
+(add-to-list 'load-path "~/.emacs.d/plugins/mustache/")
+(setq op/repository-directory "~/org/")
+(setq op/site-domain "http://echodd.github.com/")
+ ;;; for commenting, you can choose either disqus or duoshuo
+(setq op/personal-disqus-shortname "zxd home")
+(setq op/personal-duoshuo-shortname "your_duoshuo_shortname")
+;;; the configuration below are optional
+;(setq op/personal-google-analytics-id "your_google_analytics_id")
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
 (require 'cal-china-x)
 (setq mark-holidays-in-calendar t)
 (setq cal-china-x-important-holidays cal-china-x-chinese-holidays)

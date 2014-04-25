@@ -1,0 +1,106 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Apr 18 18:08:38 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("buf"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/zxd/work/lean/lightssdpd-master/src/lightssdpc.c" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/development/ssdp/Android.mk" "~/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/development/ssdp/ssdp_main.c" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/development/ssdp/Android.mk" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/development/ssdp/ssdp_pthread.c"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/development/ssdp/ssdp_main.c"
+  "ssdp_main.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  2802
+  '(1470 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/lean/lightssdpd-master/src/net.c"
+  "net.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  3453
+  '(640 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/lean/lightssdpd-master/src/lightssdpd.c"
+  "lightssdpd.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  3812
+  '(1363 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/lean/lightssdpd-master/src/http_parser.c"
+  "http_parser.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  54921
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/lean/lightssdpd-master/src/ssdp_packet.c"
+  "ssdp_packet.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  2988
+  '(2808 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/lean/lightssdpd-master/src/ssdp.c"
+  "ssdp.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  6140
+  '(4303 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/lean/lightssdpd-master/src/lightssdpc.c"
+  "lightssdpc.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  3620
+  '(3642 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/development/ssdp/Android.mk"
+  "Android.mk"
+  'makefile-gmake-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  80
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix)))
+

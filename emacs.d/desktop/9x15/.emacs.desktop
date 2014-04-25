@@ -1,0 +1,106 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Apr 17 18:53:05 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("enablenatona5" "iptable" "qcmap_cm_errno" "qcmap_connectionmanager_callback" "enable()" "iptab" "sta" "NAT" "sym" "nat" "iptab" "wmiconfig" "iptables" "IF_NET" "pf_inet" "33"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/zxd/work/MDM9X15/apps_proc/apps_proc/data/mobileap/src/mobileap_cfg.xml" "/home/zxd/work/MDM9X15/apps_proc/moble-wifi.txt" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/build/tmp-eglibc/work/armv7a-vfp-neon-oe-linux-gnueabi/data-git-r8/data/mobileap/src/QCMAP_ConnectionManager.cpp" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/data/data_git.bb" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/images/9615-cdp-qcom-image.inc" "/home/zxd/work/MDM9X15/thunder-mdm/apps_proc/oe-core/build/conf/set_bb_env.sh" "/home/zxd/work/MDM9X15/thunder-mdm/apps_proc/data/mobileap/src/QCMAP_ConnectionManager.cpp" "~/work/MDM9X15/apps_proc/apps_proc/data/mobileap/src/QCMAP_ConnectionManager.cpp" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-msm/recipes/wifi-host/wifi-host.bb" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/build/tmp" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/temp" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/images/9615-cdp-usr-image.inc" "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/images/9615-cdp-image.bb"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/moble-wifi.txt"
+  "moble-wifi.txt"
+  'text-mode
+  '(auto-fill-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  15156
+  '(15914 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/apps_proc/data/mobileap/src/qcmap_cm_main.cpp"
+  "qcmap_cm_main.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  12410
+  '(57007 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/apps_proc/data/mobileap/src/QCMAP_ConnectionManager.cpp"
+  "QCMAP_ConnectionManager.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  29180
+  '(165459 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/apps_proc/data/mobileap/src/qcmap_cm.c"
+  "qcmap_cm.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  77877
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/data/data_git.bb"
+  "data_git.bb"
+  'text-mode
+  '(auto-fill-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1225
+  '(1202 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/images/9615-cdp-usr-image.inc"
+  "9615-cdp-usr-image.inc"
+  'text-mode
+  '(auto-fill-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  718
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/images/9615-cdp-qcom-image.inc"
+  "9615-cdp-qcom-image.inc"
+  'text-mode
+  '(auto-fill-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  353
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/MDM9X15/apps_proc/apps_proc/oe-core/meta-qcom/recipes/images/9615-cdp-image.bb"
+  "9615-cdp-image.bb"
+  'text-mode
+  '(auto-fill-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  192
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

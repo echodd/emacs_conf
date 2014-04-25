@@ -1,0 +1,502 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Apr 14 18:28:57 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("mmanagerservice" "getname" "madapter" "getname" "name" "log_ndebug" "ndebug" "log_ndebug" "alogv" "alogi" "bt_vnd_if" "bluetoothhclibinterface" "etoothhclibinterface" "bluetoothhclibinterface;" "bt_hc_if" "bluetoothhclibinterface"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/frameworks/base/core/java/android/bluetooth/BluetoothAdapter.java" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/frameworks/base/core/java/android/bluetooth/BluetoothA2dp.java" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/com/android/settings/bluetooth/LocalBluetoothAdapter.java" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/system/core/include/log/log.h" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/system/core/include/cutils/log.h" "/home/zxd/work/lean/c/rbtree/test.c" "/home/zxd/work/lean/c/rbtree/rbtree.h" "/home/zxd/work/lean/c/rbtree/rbtree.c" "~/work/lean/c/retree" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/kernel/lib/rbtree.c" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/kernel/include/linux/rbtree.h" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/cscope.files" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/stack/rfcomm/port_api.c" "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/main/bte_main.c"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/frameworks/base/core/java/android/bluetooth/BluetoothAdapter.java"
+  "BluetoothAdapter.java"
+  'java-mode
+  '(abbrev-mode auto-complete-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  16316
+  '(25873 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/frameworks/base/core/java/android/bluetooth/BluetoothA2dp.java"
+  "BluetoothA2dp.java"
+  'java-mode
+  '(abbrev-mode auto-complete-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/com/android/settings/bluetooth/LocalBluetoothAdapter.java"
+  "LocalBluetoothAdapter.java"
+  'java-mode
+  '(abbrev-mode auto-complete-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1543
+  '(3249 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/com/android/settings/bluetooth/BluetoothSettings.java"
+  "BluetoothSettings.java"
+  'java-mode
+  '(abbrev-mode auto-complete-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  3252
+  '(61 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "bluetooth<2>"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  1356
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/com/android/settings/bluetooth/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "settings"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  1255
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/com/android/settings/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "android<2>"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  298
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/com/android/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "com<2>"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  236
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/com/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "src<2>"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  232
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/src/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "Settings"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  688
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Settings/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/jni/com_android_bluetooth_btservice_QAdapterService.cpp"
+  "com_android_bluetooth_btservice_QAdapterService.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  13149
+  '(8667 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/jni/com_android_bluetooth_btservice_AdapterService.cpp"
+  "com_android_bluetooth_btservice_AdapterService.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode text-scale-mode)
+  13234
+  '(37614 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/jni/com_android_bluetooth.h"
+  "com_android_bluetooth.h"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  897
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "a2dp"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  221
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/src/com/android/bluetooth/a2dp/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "src"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  189
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/src/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "com"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  193
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/src/com/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "android"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  203
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/src/com/android/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "bluetooth"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  213
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/src/com/android/bluetooth/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/hardware/qcom/bt/libbt-vendor/src/bt_vendor_qcom.c"
+  "bt_vendor_qcom.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  672
+  '(452 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/vendor/qcom/proprietary/gps/framework/native/jni/LocationService_jni.cpp"
+  "LocationService_jni.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1107
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/system/core/include/log/log.h"
+  "log.h<2>"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1734
+  '(1673 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/system/core/include/cutils/log.h"
+  "log.h"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/frameworks/rs/rsCppUtils.h"
+  "rsCppUtils.h"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1545
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/hardware/qcom/bt/libbt-vendor/src/hardware.c"
+  "hardware.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  2394
+  '(2252 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/btc/src/btc_common.c"
+  "btc_common.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  12211
+  '(11866 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/stack/rfcomm/rfc_port_if.c"
+  "rfc_port_if.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1236
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/stack/rfcomm/rfc_l2cap_if.c"
+  "rfc_l2cap_if.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  2678
+  '(2180 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/stack/rfcomm/port_api.c"
+  "port_api.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  56328
+  '(56328 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/main/bte_init.c"
+  "bte_init.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  12097
+  '(7074 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/main/bte_main.c"
+  "bte_main.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode text-scale-mode)
+  6577
+  '(9422 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/hci/src/bt_hci_bdroid.c"
+  "bt_hci_bdroid.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1926
+  '(8390 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/hci/src/bt_hw.c"
+  "bt_hw.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  7851
+  '(1767 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/stack/btu/btu_init.c"
+  "btu_init.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  3365
+  '(2916 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/btif/src/btif_core.c"
+  "btif_core.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode text-scale-mode)
+  17568
+  '(15758 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/btif/src/bluetooth.c"
+  "bluetooth.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode text-scale-mode)
+  6846
+  '(5802 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/hardware/qcom/bt/libbt-vendor/src/hw_rome.c"
+  "hw_rome.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  27486
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/hardware/qcom/bt/libbt-vendor/src/hci_smd.c"
+  "hci_smd.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1264
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/hardware/qcom/bt/libbt-vendor/src/bt_vendor_persist.cpp"
+  "bt_vendor_persist.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  3205
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "jni"
+  'dired-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  530
+  '(nil nil)
+  t
+  '("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/jni/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/hardware/libhardware/include/hardware/bluetooth.h"
+  "bluetooth.h"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  10276
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/AndroidManifest.xml"
+  "AndroidManifest.xml"
+  'nxml-mode
+  '(auto-fill-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  9419
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/packages/apps/Bluetooth/Android.mk"
+  "Android.mk"
+  'makefile-gmake-mode
+  '(ecb-minor-mode global-auto-revert-mode linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/stack/bnep/bnep_api.c"
+  "bnep_api.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  1690
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/external/bluetooth/bluedroid/stack/avrc/avrc_sdp.c"
+  "avrc_sdp.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode hs-minor-mode ecb-minor-mode global-auto-revert-mode linum-mode)
+  13134
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

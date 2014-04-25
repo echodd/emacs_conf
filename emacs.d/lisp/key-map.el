@@ -98,6 +98,8 @@
 (global-set-key (kbd "M-.") 'tabbar-forward-group)
 (global-set-key [C-f0] 'serial-term);迷你终端
 
+
+
 (defun my-copy-word()
   "复制光标所在处的单词"
   (interactive)
@@ -133,3 +135,13 @@
 	(local-set-key "." 'semantic-complete-self-insert) 
 	(local-set-key ">" 'semantic-complete-self-insert))
 (add-hook 'c-mode-common-hook 'my-c-mode-ac-complete-hook)
+
+;;设置google 翻译快捷键 ，源语言-目标语言
+(setq google-translate-default-source-language "en")
+(setq google-translate-default-target-language "zh-CN")
+(global-set-key (kbd "C-c a") 'google-translate-at-point)
+;;设置天气预报快捷键，天气预报经纬度
+(setq weather-metno-location-name "beijing"
+      weather-metno-location-latitude 39
+      weather-metno-location-longitude 116)
+(global-set-key (kbd "C-c e") 'weather-metno-forecast)

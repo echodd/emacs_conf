@@ -9,30 +9,16 @@
 (add-to-list 'load-path "~/.emacs.d/elpa/alpha-1.0/")
 (add-to-list 'load-path "~/.emacs.d/elpa/undo-tree-20140110.616/")
 (add-to-list 'load-path "~/.emacs.d/elpa/workgroups-20110726.941/")
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(add-to-list 'load-path "~/.emacs.d/elpa/org-page/")
-(require 'org-page)
-(add-to-list 'load-path "~/.emacs.d/plugins/mustache/")
-(setq op/repository-directory "~/org/")
-(setq op/site-domain "http://echodd.github.com/")
- ;;; for commenting, you can choose either disqus or duoshuo
-(setq op/personal-disqus-shortname "zxd home")
-(setq op/personal-duoshuo-shortname "your_duoshuo_shortname")
-;;; the configuration below are optional
-;(setq op/personal-google-analytics-id "your_google_analytics_id")
-
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-
+(add-to-list 'load-path "~/.emacs.d/elpa/google-maps-20130412.230/")
+(add-to-list 'load-path "~/.emacs.d/elpa/weather-metno-20140422.1038/")
+(require 'google-maps)
+(require 'weather-metno)
 (require 'cal-china-x)
 (setq mark-holidays-in-calendar t)
 (setq cal-china-x-important-holidays cal-china-x-chinese-holidays)
 (setq calendar-holidays cal-china-x-important-holidays)
 (require 'undo-tree)
-;;(global-undo-tree-mode)
+(global-undo-tree-mode)
 (require 'alpha)
 (require 'auto-complete-config)
 (ac-config-default)
@@ -46,7 +32,6 @@
 (require 'gdb-mi)
 (require 'ox-html)
 (require 'workgroups)
-;(load "chinese-calendar.el")
 (load "speed-bar.el")
 (load "base.el")
 (load "key-map.el")
@@ -62,7 +47,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes (quote ("e585a0b60621dc3f912f6fa77a547693a614616974de303a7ab58acca076f55d" default)))
+ '(custom-safe-themes (quote ("5e3fc08bcadce4c6785fc49be686a4a82a356db569f55d411258984e952f194a" "7153b82e50b6f7452b4519097f880d968a6eaf6f6ef38cc45a144958e553fbc6" "e585a0b60621dc3f912f6fa77a547693a614616974de303a7ab58acca076f55d" default)))
+ '(ecb-options-version "2.40")
  '(emms-mode-line-icon-image-cache (quote (image :type xpm :ascent center :data "/* XPM */
 static char *note[] = {
 /* width height num_colors chars_per_pixel */
@@ -83,6 +69,7 @@ static char *note[] = {
 \"######....\",
 \"#######..#\" };")))
  '(fci-rule-color "#f6f0e1")
+ '(git-baseline-alist (quote (("/home/zxd/work/Hip_DragonFly/Hip_DragonFly/3025.3/LINUX/android/hardware/qcom/bt/" . "caf/LNX.LA.2.7.3"))) t)
  '(gnus-logo-colors (quote ("#0d7b72" "#bdbdbd")))
  '(gnus-mode-line-image-cache (quote (image :type xpm :ascent center :data "/* XPM */
 static char *gnus-pointer[] = {

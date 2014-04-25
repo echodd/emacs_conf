@@ -84,11 +84,16 @@
 ;;垂直分割窗口,alt+3
 (global-set-key (kbd "M-3") 'split-window-horizontally)
 
-;;窗口的切换
-(global-set-key [M-left] 'windmove-left)
-(global-set-key [M-right] 'windmove-right)
-(global-set-key [M-up] 'windmove-up)
-(global-set-key [M-down] 'windmove-down)
+;;窗口焦点切换
+(global-set-key (kbd "C-c h") 'windmove-left)
+(global-set-key (kbd "C-c l") 'windmove-right)
+(global-set-key (kbd "C-c j") 'windmove-up)
+(global-set-key (kbd "C-c k") 'windmove-down)
+;;窗口大小变化
+(global-set-key (kbd "M-9") 'enlarge-window)
+(global-set-key (kbd "M-0") 'shrink-window)
+(global-set-key (kbd "M-(") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-)") 'shrink-window-horizontally)
 
 (require 'tabbar)
 (tabbar-mode 1)

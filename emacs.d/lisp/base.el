@@ -315,9 +315,11 @@
 ;;跟新3个下载包源
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("elpa" . "http://tromey.com/elpa/")
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
-(setq package-enable-at-startup nil)
 (package-initialize)
+
+
 (defun zxd-kill-ring-save (&optional n)
 "If region is active, copy region. Otherwise, copy line."
 (interactive "p")

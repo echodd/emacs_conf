@@ -1,6 +1,5 @@
 (setq user-full-name "xiandong")   
 (setq user-mail-address "zxd641326@163.com")   
-(setq gnus-select-method '(nntp "news.newsfan.net"))  
   
   
   
@@ -34,7 +33,7 @@
 '((pop :server "pop.163.com"  
        :user "zxd641326@163.com"  
        :port "pop3"  
-       :password "zxd_641326")))  
+       :password "")))  
 (setq gnus-secondary-select-methods '((nnfolder "")))  
 (setq user-full-name "zxd641326")  
 (setq user-mail-address "zxd641326@163.com")  
@@ -42,7 +41,7 @@
 '(("smtp.163.com"  
 25  
 "zxd641326"  
-"zxd_641326")))  
+"")))  
 (setq smtpmail-default-smtp-server "smtp.163.com")  
 (setq smtpmail-smtp-server "smtp.163.com")  
 (setq message-send-mail-function 'smtpmail-send-it)

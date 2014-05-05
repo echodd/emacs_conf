@@ -65,12 +65,12 @@
 (setq lazy-lock-defer-on-scrolling t)
 ;;(setq font-lock-support-mode 'lazy-lock-mode)
 (setq font-lock-maximum-decoration t)
-;;将错误信息显示在回显区
-(condition-case err
-	(progn
-	  (require 'xxx))
-  (error
-   (message "Can't load xxx-mode %s" (cdr err))))
+;; ;;将错误信息显示在回显区
+;; (condition-case err
+;; 	(progn
+;; 	  (require 'xxx))
+;;   (error
+;;    (message "Can't load xxx-mode %s" (cdr err))))
 ;;使用X剪贴板
 (setq x-select-enable-clipboard t)
 ;;设定剪贴板的内容格式 适应Firefox

@@ -482,7 +482,7 @@ visiting files that no longer exist."
     (unwind-protect
         (let ((buffers-not-reverted (copy-sequence buffers-that-exist))
               buffers-that-exist-unsaved buffers-that-exist-saved)
-          (flet ((buffer-refresh-func (buffer)
+          (cl-flet ((buffer-refresh-func (buffer)
                   (with-current-buffer buffer (revert-buffer t t))
                   ;; A hash table is probably not worth it here.
                   (setq buffers-not-reverted

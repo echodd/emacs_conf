@@ -9,7 +9,9 @@ cscope -q -b -i $LIST_FILE -f $DATABASE_FILE
 
 使用前现在code目录下使用命令：cscope-indexer -r
 
-cscope 默认不处理java等其他文件，需要手动添加额外支持文件类型
+cscope 默认不处理java等其他文件，需要手动添加额外支持文件类型:自己写了一个工具my-cscope
+
+自动补全c/c++头文件需要安装clang：命令：sudo apt-get install clang
 
 org/zxd.des3   文件为加密org文件，加解密方式如下：
 

@@ -1,6 +1,9 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 (add-to-list 'load-path "~/.emacs.d/plugins/git-emacs/")
-(add-to-list 'load-path "~/.emacs.d/plugins/auto-complete/")
+(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete/")
+(add-to-list 'load-path "~/.emacs.d/elpa/popup/")
+(add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-c-headers/")
+(require 'auto-complete-c-headers)
 (add-to-list 'load-path "~/.emacs.d/plugins/yasnippet/")
 (require 'yasnippet)
 (yas/global-mode 1)
@@ -27,7 +30,6 @@
 ;(global-undo-tree-mode)
 (require 'alpha)
 (require 'auto-complete)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/plugins/auto-complete/ac-dict")
 (require 'auto-complete-config)
 (ac-config-default)
 (require 'ecb)
@@ -43,7 +45,7 @@
 (load "speed-bar.el")
 (load "base.el")
 (load "key-map.el")
-(load "auto-complete.el")
+(load "my-auto-complete.el")
 (load "my-mail.el")
 (load "my-org.el")
 (require 'package)
@@ -55,7 +57,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes (quote ("ab04c00a7e48ad784b52f34aa6bfa1e80d0c3fcacc50e1189af3651013eb0d58" "5e3fc08bcadce4c6785fc49be686a4a82a356db569f55d411258984e952f194a" "7153b82e50b6f7452b4519097f880d968a6eaf6f6ef38cc45a144958e553fbc6" "e585a0b60621dc3f912f6fa77a547693a614616974de303a7ab58acca076f55d" default)))
+ '(custom-safe-themes (quote ("a0feb1322de9e26a4d209d1cfa236deaf64662bb604fa513cca6a057ddf0ef64" "ab04c00a7e48ad784b52f34aa6bfa1e80d0c3fcacc50e1189af3651013eb0d58" "5e3fc08bcadce4c6785fc49be686a4a82a356db569f55d411258984e952f194a" "7153b82e50b6f7452b4519097f880d968a6eaf6f6ef38cc45a144958e553fbc6" "e585a0b60621dc3f912f6fa77a547693a614616974de303a7ab58acca076f55d" default)))
  '(ecb-options-version "2.40")
  '(emms-mode-line-icon-image-cache (quote (image :type xpm :ascent center :data "/* XPM */
 static char *note[] = {

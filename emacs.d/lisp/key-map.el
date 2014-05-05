@@ -156,3 +156,6 @@
    (define-key markdown-mode-map (kbd "<tab>") nil))
 (add-hook 'markdown-mode-hook 'markdown-unset-tab)
 (global-set-key (kbd "C-M-;") 'yas/expand)
+
+;; clang 补全快捷键
+(global-set-key (kbd "C-/") 'ac-complete-clang)

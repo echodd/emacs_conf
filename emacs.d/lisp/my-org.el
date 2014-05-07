@@ -32,9 +32,8 @@
                             (local-set-key (kbd "C-c s i")
                                            'org-insert-src-block)
                             ))    
-(setq org-agenda-files (list "~/org/zxd.org"
+(setq org-agenda-files (list "~/.emacs.d/zxd.org"
                           ;; "~/org/life.org"
-						;;	 "~/org/study.org"
 							 ))
 ;;周统计							 
 (org-babel-do-load-languages

@@ -1,0 +1,75 @@
+#+TAGS: { work(w) lean(l)  other(o) }
+#+SEQ_TODO: TODO(t) STARTED(s) WAITING(w) APPT(a) | DONE(d) CANCELLED(c) DEFERRED(f)
+#+PROPERTY: CLOCK_INTO_DRAWER t
+
+* >>>>>>工作<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 	   :work:
+** ------W19------
+*** TODO W19-3
+	调查usb tethering 功能打开时，ubuntu 打开iptables 功能，
+	局域网内pc访问设备,现在的状态是网络通了但是webserver返回
+	错误信息
+
+	:LOGBOOK:
+	CLOCK: [2014-05-07 三 9:00]--[2014-05-07 三 12:00] =>  3:00
+	CLOCK: [2014-05-07 三 13:00]--[2014-05-07 三 18:30] =>  5:30
+	:END:
+*** W19-4
+*** TODO W19-5														   :work:
+** -----W20-------
+*** W20-1
+*** W20-2
+	
+* >>>>>>其他<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<		  :other:
+** TODO 工作日常报告
+   SCHEDULED: <2014-05-08 四 +1d>
+   - State "DONE"       from "APPT"       [2014-05-07 三 18:08]
+   :PROPERTIES:
+   :LAST_REPEAT: [2014-05-07 三 18:08]
+   :END:
+
+
+** TODO 项目日常进度
+   SCHEDULED: <2014-05-08 四 +1d>
+   - State "DONE"       from "APPT"       [2014-05-07 三 18:07]
+   :PROPERTIES:
+   :LAST_REPEAT: [2014-05-07 三 18:07]
+   :END:
+
+* >>>>>>学习<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<	   :lean:
+* >>>>>>统计<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  
+
+#+BEGIN: clocktable :maxlevel 3 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t :tags "work"
+#+CAPTION: Clock summary at [2014-05-07 三 17:49], for week 2014-W19.
+| File    | Headline                                   | Time   |      |      |
+|---------+--------------------------------------------+--------+------+------|
+|         | ALL *Total time*                           | *8:30* |      |      |
+|---------+--------------------------------------------+--------+------+------|
+| zxd.org | *File time*                                | *8:30* |      |      |
+|         | >>>>>>工作<<<<<<<<<<<<<<<<<<<<<<<<<<<<<... | 8:30   |      |      |
+|         | \__ ------W19------                        |        | 8:30 |      |
+|         | \_____ DONE W19-3                          |        |      | 8:30 |
+#+END:
+#+BEGIN: clocktable :maxlevel 3 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t :tags "other"
+#+CAPTION: Clock summary at [2014-05-07 三 17:30], for week 2014-W19.
+| File | Headline         | Time   |
+|------+------------------+--------|
+|      | ALL *Total time* | *0:00* |
+#+END:
+#+BEGIN: clocktable :maxlevel 3 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t :tags "lean"
+#+CAPTION: Clock summary at [2014-05-07 三 17:30], for week 2014-W19.
+| File | Headline         | Time   |
+|------+------------------+--------|
+|      | ALL *Total time* | *0:00* |
+#+END:
+
+#+BEGIN_SRC emacs-lisp :results value
+(setq week-range (org-clock-special-range 'thisweek nil t))
+(org-clock-sum-today-by-tags nil (nth 0 week-range) (nth 1 week-range) t)
+#+END_SRC
+
+#+RESULTS:
+=[-work-] 08:30
+=** C-c C-c 统计快捷键/插入项目tag C-c C-t 插入状态tag
+ 
+
+
